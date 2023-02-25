@@ -2,24 +2,6 @@
 title: "Article Layout"
 ---
 
-### Margin Figures
-
-Figures that you create using code cells can be placed in the margin by using the `column: margin` code cell option. If the code produces more than one figure, each of the figures will be placed in the margin.
-
 ```{r}
-#| label: fig-mtcars
-#| fig-cap: "MPG vs horsepower, colored by transmission."
-#| column: margin
-#| echo: fenced
-
-library(ggplot2)
-mtcars2 <- mtcars
-mtcars2$am <- factor(
-  mtcars$am, labels = c('automatic', 'manual')
-)
-ggplot(mtcars2, aes(hp, mpg, color = am)) +
-  geom_point() +
-  geom_smooth(formula = y ~ x, method = "loess") +
-  theme(legend.position = 'bottom')
+plot(1:10)
 ```
-
