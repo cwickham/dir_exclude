@@ -1,0 +1,10 @@
+project:
+  output-dir: _narrow-body
+
+format:
+  html:
+    grid: 
+      body-width: 500px
+
+
+
