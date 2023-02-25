@@ -1,7 +1,0 @@
----
-title: "Article Layout"
----
-
-```{r}
-plot(1:10)
-```

@@ -3,19 +3,7 @@ project:
 
 website:
   title: "Dir_exclude"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-  sidebar: 
-    contents: auto
 
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
+format: html
 
 
