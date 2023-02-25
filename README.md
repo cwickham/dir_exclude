@@ -1,9 +1,6 @@
 # To replicate issue
 
-The commit prior to adding these instructions adds the file `default-layout.qmd` - prior to adding this file there doesn't seem to be any unexpected behavior.
-
-
-Now, render using a profile:
+Render using a profile:
 ```
 quarto render --profile narrow-body
 ```
@@ -39,3 +36,7 @@ _site/
 ├── site_libs
 └── styles.css
 ```
+
+Problem seems to be adding the file `default-layout.qmd` - delete this file and there is no unexpected behavior.
+
+
